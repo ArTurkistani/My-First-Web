@@ -43,46 +43,74 @@
         </div>
     </nav>
 
-    <main class="container mt-5 pt-5">
 <main class="container mt-5 pt-5">
         <header class="text-center mb-5">
             <h1 class="display-5 fw-bolder text-success" >Saudi Arabia</h1>
             <h3 class="display-4 fw-bold " style="color: rgb(23, 109, 175);" >Al-Madinah Al-Munawwarah</h3>
             <p class="lead">The enlightened city and the first capital of Islam.</p>
+            <p class="text-muted"><strong>Population:</strong> Approximately 1.5 Million | <strong>Location:</strong> Hejaz Region</p>
+             <p class="text-muted"><strong>Known For:</strong> Al-Masjid an-Nabawi, Islamic Heritage, Religious Tourism</p>
+             <p class="text-muted"><strong>Fun Fact:</strong> Madinah is the second holiest city in Islam after Mecca and is home to the Prophet Muhammad's Mosque, which attracts millions of visitors annually.</p>
             <p class="lead">The city where I was born and raised</p>
         </header>
+
+        
+
+        <div class="text-center mb-2">
+        <p class="text-decoration-underline fw-bold text-secondary">
+            Click on the images to learn more about each landmark
+        </p>
+    </div>
 
         <section id="cityCarousel" class="carousel slide shadow rounded overflow-hidden mb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#cityCarousel" data-bs-slide-to="3"></button>
             </div>
              <div class="carousel-inner">
 
                 <div class="carousel-item active">
+                    <a href="https://en.wikipedia.org/wiki/Al-Masjid_an-Nabawi" target="_blank">
                     <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=1200" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Al-Masjid an-Nabawi">
                     <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
                         <h5>Al-Masjid an-Nabawi</h5>
                         <p>The Prophet's Mosque, the heart of the city.</p>
                     </div>
+                    </a>
                 </div>
 
                 <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Mount_Uhud" target="_blank">
                     <img src="https://media.istockphoto.com/id/1466991059/photo/mount-uhud-is-a-mountain-north-of-medina-saudi-arabia-it-is-1-077-m-high-and-7-5-km-long.jpg?s=170667a&w=0&k=20&c=UaRzCy1JE0leaHMyx4ENXrylNnIuRXq4yJf_eB_omFk=" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Mount Uhud">
                     <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
                         <h5>Mount Uhud</h5>
                         <p>A historical mountain with great significance in Islamic history.</p>
                     </div>
+                    </a>
                 </div>
 
                 <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Quba_Mosque" target="_blank">
                     <img src="https://th.bing.com/th/id/R.1973b4386678f6e9ebb2f4696f3aec6c?rik=aqnrkZzBvG8emg&pid=ImgRaw&r=0" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Quba Mosque">
                     <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
                         <h5>Quba Mosque</h5>
                         <p>The first mosque built in Islam.</p>
                     </div>
+                    </a>
                 </div>
+
+
+                <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Ghars_Well" target="_blank">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.Zq5jdmIxRXFvIf1CER9mLQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Ghars Well">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                            <h5>Ghars Well</h5>
+                            <p>A historical prophetic well in Madinah with great significance in Islamic heritage.</p>
+                        </div>
+                        </a>
+                    </div>
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#cityCarousel" data-bs-slide="prev">
@@ -93,14 +121,74 @@
             </button>
         </section>
 
+        <div class="row mt-4">
+    <div class="col-md-3">
+        <div class="card shadow-sm border-success h-100">
+            <div class="card-header bg-success text-white text-center fw-bold">Prayer Times</div>
+            <div class="card-body p-2" id="prayer-times">
+                <p class="text-center">Loading timings...</p>
+            </div>
+        </div>
+    </div>
+
         <section class="mb-5">
             <h2 class="text-center mb-4">Location on Map</h2>
             <div class="ratio ratio-21x9 shadow rounded">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115934.33177651065!2d39.531238691515275!3d24.482902347143167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbe5197d22477%3A0x2e2f44a3e4d6e662!2sMedina%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1714850000000!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
-            </div>
             
-    </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115934.33177651065!2d39.531238691515275!3d24.482902347143167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbe5197d22477%3A0x2e2f44a3e4d6e662!2sMedina%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1714850000000!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+            
+            </div>
+            </section>
+
+    <div class="col-md-6">
+        </div>
+
+    <div class="col-md-3">
+        <div class="card shadow-sm border-primary h-100">
+            <div class="card-header bg-primary text-white text-center fw-bold">About Madinah</div>
+            <div class="card-body scrollable-content" id="wiki-info" style="font-size: 0.9rem;">
+                <p>Loading information...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
     </main>
+
+    <script>
+async function fetchAPIs() {
+    try {
+        const prayerRes = await fetch('https://api.aladhan.com/v1/timingsByCity?city=Medina&country=Saudi+Arabia&method=4');
+        const prayerData = await prayerRes.json();
+        const timings = prayerData.data.timings;
+
+        document.getElementById('prayer-times').innerHTML = `
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between"><span>Fajr</span> <b>${timings.Fajr}</b></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Dhuhr</span> <b>${timings.Dhuhr}</b></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Asr</span> <b>${timings.Asr}</b></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Maghrib</span> <b>${timings.Maghrib}</b></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Isha</span> <b>${timings.Isha}</b></li>
+            </ul>
+        `;
+
+        const wikiRes = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Medina');
+        const wikiData = await wikiRes.json();
+        
+        document.getElementById('wiki-info').innerHTML = `
+            <p>${wikiData.extract}</p>
+            <a href="${wikiData.content_urls.desktop.page}" target="_blank" class="btn btn-sm btn-outline-primary w-100">Read More</a>
+        `;
+
+    } catch (error) {
+        console.error("Error fetching APIs:", error);
+        document.getElementById('prayer-times').innerHTML = "Service unavailable.";
+        document.getElementById('wiki-info').innerHTML = "Could not load city information.";
+    }
+}
+
+window.onload = fetchAPIs;
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
