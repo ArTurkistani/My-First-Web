@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    border-bottom: 3px solid #198754; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.city-title {
+    color: #176daf !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-header {
+    border-bottom: 2px solid #198754;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+#wiki-info {
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    line-height: 1.6;
+}
+
+.php-container {
+    max-width: 600px;
+    margin: 80px auto;
+}
+
+.result-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.data-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.data-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.data-label {
+    font-weight: bold;
+    color: #198754;
+    width: 40%;
+}
+
+.sticky-instruction {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 15px;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.skill-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.skill-progress {
+    background-color: #198754; 
+    border-radius: 5px;
+}
